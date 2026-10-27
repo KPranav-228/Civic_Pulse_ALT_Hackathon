@@ -1,4 +1,0 @@
-| dataset                                      |   samples | status                           |   cat_accuracy |   cat_f1_macro |   sev_accuracy |   sev_f1_macro |   high_severity_precision |   critical_f1 |   warning_f1 |
-|:---------------------------------------------|----------:|:---------------------------------|---------------:|---------------:|---------------:|---------------:|--------------------------:|--------------:|-------------:|
-| Synthetic Test Set (seed/test.json)          |        92 | Evaluated                        |              1 |              1 |         0.7935 |         0.7585 |                    0.8485 |        0.6154 |       0.7636 |
-| Real Announcements (seed/real_test_set.json) |         0 | No data supplied (file is empty) |            nan |            nan |       nan      |       nan      |                  nan      |      nan      |     nan      |

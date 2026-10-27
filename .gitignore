@@ -1,4 +1,4 @@
-# Local secrets and environment files
+﻿# Local secrets and environment files
 .env
 .env.*
 !.env.example
@@ -9,17 +9,12 @@ __pycache__/
 .pytest_cache/
 .venv/
 venv/
-*.egg-info/
-
-# SQLite databases
-*.db
-*.sqlite
-*.sqlite3
 
 # Jupyter
 .ipynb_checkpoints/
 
 # Data and experiment outputs
+*.csv
 data/
 outputs/
 
@@ -29,11 +24,7 @@ outputs/
 *.safetensors
 checkpoints/
 
-# Frontend dependencies & build artifacts
-node_modules/
-client/node_modules/
-client/dist/
-client/.vite/
+# Frontend dependencies/build artifacts
 frontend/node_modules/
 frontend/.next/
 frontend/tsconfig.tsbuildinfo
