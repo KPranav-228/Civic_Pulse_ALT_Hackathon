@@ -1,0 +1,5 @@
+model,architecture,params_m,accuracy,macro_f1,oov_robustness_pct,avg_latency_ms
+FastText (Subword),Char N-Gram Embeddings,2.5,0.792,0.768,88.4,1.8
+DistilBERT,6-Layer Transformer,66.0,0.835,0.812,64.2,28.5
+IndicBERT,12-Layer ALBERT (12 Indic Lgs),12.0,0.894,0.881,91.6,42.1
+MuRIL (Google),12-Layer BERT (17 Indic Lgs),236.0,0.928,0.919,96.2,84.7
