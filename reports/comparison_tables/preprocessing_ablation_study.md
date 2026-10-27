@@ -1,0 +1,8 @@
+| Preprocessing Configuration                         |   Mean F1 Macro |   F1 Std |   Vocabulary Size |
+|:----------------------------------------------------|----------------:|---------:|------------------:|
+| Full Pipeline (All Cleanings + spaCy Lemmatization) |          0.9906 |   0.0066 |              1500 |
+| Without Lemmatization                               |          0.9878 |   0.0106 |              1500 |
+| With Porter Stemming Instead                        |          0.9892 |   0.0085 |              1500 |
+| Without Stopword Removal                            |          0.992  |   0.0044 |              1500 |
+| Without Lowercasing                                 |          0.9878 |   0.0106 |              1500 |
+| Raw Tokenization Only (No Cleansing)                |          0.992  |   0.0044 |              1500 |
